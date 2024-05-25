@@ -11,84 +11,122 @@ layout: default
 
                 <section>
                     <header class="major">
-                        <h1 id="about">ABOUT</h1>
+                        <h1 id="about">DELICIOUSLY FUN!</h1>
+                    </header>
+                    <div align="center">
+                        <p>Scoopy Cereal is a hilariously delicious game of timing and coordination.</p>
+                        <img src="/images/scoopy_img1.jpg" width="70%" alt="" title="">
+                    </div>
+                </section>
+
+                <section>
+                    <header id="download" class="major">
+                        <header>
+                            <div>
+                                <p align="center"><img src="/images/badge-apple.png" style="padding: 20px"><img
+                                        src="/images/badge-google.png" style="padding: 20px"></p>
+                            </div>
+                </section>
+
+                <section>
+                    <header class="major">
+                        <h1 id="features">FEATURES</h1>
                     </header>
                     <div>
-                        <p>Spud Spicer was founded by Ryan (<b>Spud</b>) Murphy and Jared (<b>Spicer</b>) in 2018.</p>
+                        <div class="row">
+                            <img src="/images/scoopy_froot1.png" width="30%">
+                            <ul>
+                                <li>Simple single tap experience</listyle="margin-bottom:>
+                                <li>Easy to play, difficult to master</li>
+                                <li>Choose from a range of cute and fun cereal characters</li>
+                                <li>Mix and match spoons and bowls to customize your game</li>
+                                <li>Open boxes for prizes. Collect all the character cards</li>
+                                <li>Free to play</li>
+                            </ul>
+                        </div>
                     </div>
                 </section>
 
                 <section>
                     <header class="major">
-                        <h1 id="team">TEAM</h1>
                     </header>
                     <div class="row">
+                        <img src="/images/scoopy_img2.jpg" width="30%" alt="" title="">
+                        <img src="/images/scoopy_img4.jpg" width="30%" alt="" title="">
+                        <img src="/images/scoopy_img5.jpg" width="30%" alt="" title="">
+                    </div>
+                </section>
 
-                        {% for staff_member in site.staff_members %}
+                <section>
+                    <header id="contact" class="major">
+                    </header>
+                    <div class="row">
+                        <div style="width:50%">
+                            <section class="box" style="height:200px">
+                                <header>
+                                    <h1 style="text-transform: uppercase">Developer & Publisher</h1>
+                                </header>
+                                <p>
+                                    <b><a href="http://www.spudspicer.com">SPUD SPICER PTY LTD</a></b>
+                                    <br>
+                                    Based in Melbourne, Australia
+                                </p>
+                            </section>
 
-                            {%- include team.html -%}
+                            <section class="box" style="height:200px">
+                                <header>
+                                    <h1 style="text-transform: uppercase">RELEASE DATE</h1>
+                                </header>
+                                <p>TDB 2024</p>
+                            </section>
 
-                        {% endfor %}
+                            <section class="box" style="height:200px">
+                                <header>
+                                    <h1 style="text-transform: uppercase">Platforms</h1>
+                                </header>
+                                <p>iOS, Google Play</p>
+                            </section>
+                        </div>
+                        <div style="width:50%">
+                            <section class="box" style="height:200px">
+                                <header>
+                                    <h1 style="text-transform: uppercase">WEBSITE</h1>
+                                </header>
+                                <p><a href="http://www.scoopycereal.com">www.scoopycereal.com</a></p>
+                            </section>
 
+                            <section class="box" style="height:200px">
+                                <header>
+                                    <h1 style="text-transform: uppercase">SOCIALS</h1>
+                                </header>
+                                <p>
+                                    Facebook | Twitter | Youtube
+                                </p>
+                            </section>
+
+                            <section class="box" style="height:200px">
+                                <header>
+                                    <h1 style="text-transform: uppercase">CONTACT</h1>
+                                </header>
+                                <p><b>Business:</b> <a href="mailto:contact@spudspicer.com">contact@spudspicer.com</a>
+                                    <br>
+                                    <b>Support:</b> <a
+                                        href="mailto:developer@spudspicer.com">developer@spudspicer.com</a>
+                                </p>
+                            </section>
+                        </div>
                     </div>
                 </section>
 
                 <section>
                     <header class="major">
-                        <h1 id="games">GAMES</h1>
                     </header>
-                    <div class="row">
-
-                        {% for game in site.games %}
-
-                            {%- include game.html -%}
-
-                        {% endfor %}
-
-                    </div>
+                    <div class="pressrow">
+                        <div class="column">
+                        </div>
                 </section>
-
             </div>
         </div>
     </div>
 
-    <section id="intro" class="container">
-        <a name="contact"></a>
-        <div class="row">
-            <div class="col-4 col-12-medium">
-                <section class="first">
-
-                    <img src="/images/icon_email.png" alt="" title="">
-                    <header>
-                        <h2>WANT TO CHAT?</h2>
-                    </header>
-                    <ul class="actions">
-                        <li><a href="mailto:contact@spudspicer.com" class="button">EMAIL US</a></li>
-                    </ul>
-                </section>
-            </div>
-            <div class="col-4 col-12-medium">
-                <section class="middle">
-                    <img src="/images/icon_email.png" alt="" title="">
-                    <header>
-                        <h2>PRESSKIT</h2>
-                    </header>
-                    <ul class="actions">
-                        <li><a href="/presskit.html" class="button alt">VISIT</a></li>
-                    </ul>
-                </section>
-            </div>
-            <div class="col-4 col-12-medium">
-                <section class="last">
-                    <img src="/images/icon_email.png" alt="" title="">
-                    <header>
-                        <h2>NEED HELP?</h2>
-                    </header>
-                    <ul class="actions">
-                        <li><a href="mailto:developer@spudspicer.com" class="button">EMAIL SUPPORT</a></li>
-                    </ul>
-                </section>
-            </div>
-        </div>
-    </section>
 </section>

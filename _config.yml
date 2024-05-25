@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Spud Spicer
+title: Scoopy Cereal
 email: developer@spudspicer.com
 description: >- # this means to ignore newlines until "baseurl:"
   Welcome to Spud Spicer. We are a small indie team located in
@@ -37,8 +37,8 @@ collections:
   games:
     sort_by: feature_order
 
-google_analytics: 405206119
-gtag: G-EW5LDQ6XM8
+google_analytics: 8191921527
+gtag: G-FR1HZPL201
 disqus:
   shortname: ryanscottmurphy
 
